@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>XP Case</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./images/XP_logo.png" alt="Logotipo da empresa XP">
+        <div>XP MLOps Case</div>
+    </header>
+    <main class="container">
+        <section class="triangle-box">
+            <div class="triangle triangle-1"></div>
+            <div class="triangle triangle-2"></div>
+        </section>
+        <section class="fibonacci-box">
+            <img class="fibonacci-image" src="./images/fibonacci-bg.jpg">
+            <form>
+                <input id="elements" 
+                type="number" 
+                min="1" 
+                placeholder="N° elementos da sequência">
+                <button class="fibonacci-btn disabled" disabled required>
+                    Enviar
+                </button>
+            </form>
+            <button class="reset-btn" onclick="window.location.reload()">
+                Reiniciar
+            </button>
+            <a href="health.html">Ir para Health</a>
+            <p id="fibonacci-message"></p>
+            </div>
+        </section>
+    </main>
+</body>
+<script type="module" src="./src/fibonacci.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>

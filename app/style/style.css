@@ -1,0 +1,129 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input {
+    width: 200px;
+    display: block;
+    margin: auto;
+    padding: 7px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+}
+a {
+    text-decoration: none;
+    color: #1F1F1F;
+    font-size: 0.9rem;
+    margin: 0px 0px 15px 0px;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+header {
+    padding: 0 30px;
+    height: 50px;
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 3px solid #FFC709;
+}
+.logo {
+    width: 45px;
+    height: 48px;
+}
+.container {
+    background-color: #EEF0EB;
+}
+.triangle-box {
+    overflow: hidden;
+    position: relative;
+    background-color: #EEF0EB;
+    height: 20vh;
+}
+.triangle {
+    position: relative;
+    width: 0;
+    height: 0;
+}
+.triangle-1 {
+    border: 75px solid transparent;
+    border-top: 0;
+    border-bottom: 150px solid #555;
+    transform: rotate(63deg);
+    top: -43px;
+    left: -43px;
+    z-index: 1;
+
+}
+.triangle-2 {
+    border-left: 200px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid #FFC709;
+    transform: rotate(343deg);
+    bottom: 246px;
+    left: -55px;
+    z-index: 0;
+}
+.fibonacci-box,
+.health-box {
+    position: relative;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -45px;
+    background-color: #EEF0EB;
+}
+.health-image {
+    width: 100%;
+    margin: 20px auto;
+}
+.fibonacci-image {
+    width: 80%;
+    border-radius: 10px;
+    margin: 50px;
+}
+#health-btn,
+.fibonacci-btn,
+.reset-btn {
+    width: 200px;
+    padding: 7px;
+    font-size: 1.1rem;
+    background-color: #121212;
+    border: none;
+    color: #EEF0EB;
+    font-weight: 600;
+    border-radius: 4px;
+    margin: 8px;
+}
+#fibonacci-message,
+#health-message {
+    margin: 5px auto;
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0px;
+    min-height: 60px;
+}
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
+.disabled {
+    opacity: 0.3;
+}
