@@ -74,6 +74,6 @@ Se o serviço foi iniciado com sucesso, você deverá ver o log do terminal acus
 
 Agora que você já possui um servidor ativo expondo a API, já pode iniciar também a aplicação web cliente. Para isso, instale um servidor web na sua máquina e suba a aplicação web a partir do arquivo health.html que está no diretório app/. 
 
-Se você estiver utilizando o VSCode, recomendo a extensão Live Server. Basta instalar a extensão, clicar com o botão direito no arquivo "healt.html" e selecionar a opção: Se tudo foi executado corretamente, você deverá ser capaz de ver a tela inicial da aplicação consumindo os dados da API, como na figura abaixo:
+Se você estiver utilizando o VSCode, recomendo a extensão Live Server. Basta instalar a extensão, clicar com o botão direito no arquivo "healt.html" e selecionar a opção: "Open With Live Server". Se tudo foi executado corretamente, você deverá ser capaz de ver a tela inicial da aplicação consumindo os dados da API, como na figura abaixo:
 
 ![Aplicação Web](./app/images/web_app.png)
